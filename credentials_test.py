@@ -24,14 +24,14 @@ class TestCredentials(unittest.TestCase):
         '''
         Credentials.credentials_list = []
 
-    def test_credentials_init(self):
-        '''
-        test case to test if the object is initializzed properly
-        '''
-        self.assertEqual(self.new_credentials.account_name, "IG")
-        self.assertEqual(self.new_credentials.user_name, "_thrills")
-        self.assertEqual(self.new_credentials.email, "jkodhe@gmail.com")
-        self.assertEqual(self.new_credentials.password, "password")
+    # def test_credentials_init(self):
+    #     '''
+    #     test case to test if the object is initialized properly
+    #     '''
+    #     self.assertEqual(self.new_credentials.account_name, "IG")
+    #     self.assertEqual(self.new_credentials.user_name, "_thrills")
+    #     self.assertEqual(self.new_credentials.email, "jkodhe@gmail.com")
+    #     self.assertEqual(self.new_credentials.password, "password")
 
     def test_save_credentials(self):
         '''
