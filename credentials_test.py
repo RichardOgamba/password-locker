@@ -4,13 +4,13 @@ from credentials import Credentials
 from user import User
 
 
-class TestCredentials(unittest.TestCase):
-    '''
-    Test class  that defines test cases for our credentials class behaviours.
-
-    Args:
-        unittest.TestCase: Testcase class that helps in creating test cases
-    '''
+# class TestCredentials(unittest.TestCase):
+#     '''
+#     Test class  that defines test cases for our credentials class behaviours.
+#
+#     Args:
+#         unittest.TestCase: Testcase class that helps in creating test cases
+#     '''
     def setUp(self):
         '''
         set up method to before each test case.
