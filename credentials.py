@@ -2,12 +2,12 @@ import pyperclip
 import random
 
 
-# class Credentials:
-#     '''
-#     Class that generates new instances of credentials
-#     '''
-#     credentials_list = []
-#     user_password_list = []
+class Credentials:
+    '''
+    Class that generates new instances of credentials
+    '''
+    credentials_list = []
+    user_password_list = []
 
     def __init__(self, account_name, user_name, email, password):
         '''
