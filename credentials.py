@@ -9,15 +9,15 @@ class Credentials:
     credentials_list = []
     user_password_list = []
 
-    # def __init__(self, account_name, user_name, email, password):
-    #     '''
-    #     Method that helps us define the properties for our object(credentials)
-    #     '''
-    #
-    #     self.account_name = account_name
-    #     self.user_name = user_name
-    #     self.email = email
-    #     self.password = password
+    def __init__(self, account_name, user_name, email, password):
+        '''
+        Method that helps us define the properties for our object(credentials)
+        '''
+
+        self.account_name = account_name
+        self.user_name = user_name
+        self.email = email
+        self.password = password
 
     def save_credentials(self):
         '''
